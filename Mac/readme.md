@@ -86,7 +86,7 @@ MIT — free to use, modify, and distribute.
 
 🙌 Credits
 
-Created by (CyberNilsen){github.com/CyberNilsen} for AkademiTrack and the Avalonia community.
+Created by (CyberNilsen)[github.com/CyberNilsen] for AkademiTrack and the Avalonia community.
 
 
 
