@@ -112,5 +112,5 @@ Both outputs can then be included in your Avalonia project under something like 
 MIT — free to use, modify, and distribute. 
 
 ## 🙌 Credits
-[Cyberilsen](https://github.com/Cybernilsen)
+Created by [Cyberilsen](https://github.com/Cybernilsen) <br>
 Built for Avalonia and AkademiTrack, and shared for the community.
