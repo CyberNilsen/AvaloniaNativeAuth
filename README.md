@@ -4,7 +4,6 @@
 
 **AvaloniaNativeAuth** provides **ready-to-use native authentication programs** for **Windows** and **macOS**, enabling Avalonia and other .NET desktop apps to securely use **Touch ID** or **Windows Hello** for local user authentication — without needing direct OS-specific bindings.
 
----
 
 ## 🚀 Overview
 
@@ -13,10 +12,6 @@ This repository solves that by including small native executables that your .NET
 
 These binaries can be called from Avalonia (or any .NET 6+) project using `System.Diagnostics.Process`.
 
----
-
-
----
 
 ## 🖥️ Platforms
 
@@ -25,7 +20,7 @@ These binaries can be called from Avalonia (or any .NET 6+) project using `Syste
 | **macOS** | `AkademiAuth` | Swift | Touch ID authentication with password fallback |
 | **Windows** | `WinHelloAuth.exe` | C++ | Windows Hello login prompt and verification |
 
----
+
 
 ## 🔐 How It Works
 
@@ -39,7 +34,6 @@ Both programs use the **native OS authentication dialogs**, perform biometric (o
 
 Your .NET or Avalonia app can run these helpers invisibly and check the exit code to determine the result.
 
----
 
 ## 🧰 Requirements
 
@@ -48,7 +42,6 @@ Your .NET or Avalonia app can run these helpers invisibly and check the exit cod
 - Windows 10+ for Windows Hello
 - Avalonia 11+ (recommended)
 
----
 
 ## 💻 Integration Example (Cross-Platform C#)
 
@@ -97,7 +90,6 @@ public static class NativeAuthService
 
 Call await NativeAuthService.AuthenticateAsync(); wherever secure user verification is needed.
 
----
 
 ## 🧱 Building from Source
 macOS
@@ -114,13 +106,10 @@ cd Windows
 cl main.cpp /Fe:WinHelloAuth.exe
 ```
 Both outputs can then be included in your Avalonia project under something like Assets/Helpers/.
-
---- 
+ 
 
 ## 📦 License
-MIT — free to use, modify, and distribute.
-
---- 
+MIT — free to use, modify, and distribute. 
 
 ## 🙌 Credits
 [Cyberilsen](https://github.com/Cybernilsen)
