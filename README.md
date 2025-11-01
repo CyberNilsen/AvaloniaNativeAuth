@@ -109,7 +109,7 @@ Both outputs can then be included in your Avalonia project under something like 
  
 
 ## 📦 License
-MIT — free to use, modify, and distribute. 
+This project is licensed under the [MIT License](LICENSE) - see the LICENSE file for details.
 
 ## 🙌 Credits
 Created by [Cyberilsen](https://github.com/Cybernilsen) <br>
